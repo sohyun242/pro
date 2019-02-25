@@ -1,0 +1,17 @@
+<h1>사진 업로드</h1> 
+
+<html>
+
+    <body>
+   
+        {%for imageupload in imageuploads.all %}
+        
+        {% endfor %}
+        
+        <div>
+            <img src = "{{imageupload.image.url}}" height =400>
+        </div>
+    
+    </body>
+    
+</html>
